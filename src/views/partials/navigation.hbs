@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand link-warning fs-3 fw-bold" href="#">E-Commerce</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav mx-auto my-2 my-lg-0">
+        <li class="nav-item">
+          <a class="nav-link link-light" aria-current="page" href="/">Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fas fa-cash-register"></i> Ventas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/add">Caja</a></li>
+            <li><a class="dropdown-item" href="/list">Cliente</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fas fa-cart-arrow-down"></i> Compras
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Orden de Compra</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fas fa-warehouse"></i> Almacén
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/almacen/add-categoria">Categoría</a></li>
+            <li><a class="dropdown-item" href="/almacen/add-producto">Producto</a></li>
+            <li><a class="dropdown-item" href="/almacen/add-proveedor">Proveedor</a></li>
+            <li><a class="dropdown-item" href="/almacen/add-marca">Marca</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
